@@ -1,0 +1,173 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    background-color: #2c2c2c;
+    z-index: 3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1b1b1b;
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    margin-left: 0.2em;
+}
+
+h2{
+    margin-left: 0.2em;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-card {
+    background: #42404f;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-info {
+    padding: 15px;
+    color: white;
+}
+
+.car-name {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+.car-details {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+.car-price {
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px #2c2c2c;
+    background: #1b1b1b;
+    color: white;
+}
+
+input[type="number"] {
+    width: 7em;
+}
+
+select {
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px #2c2c2c;
+    border-radius: 5px;
+    background: #1b1b1b;
+    color: white;
+
+}
+
+.button-group {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-add {
+    width: 100%;
+    height: 100%;
+    font-size: 10em;
+    color: white;
+    background: #1b1b1b;
+    border: 0.05em solid #42404f;
+}
+
+.btn-filter {
+    background: #ffd32a;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.btn-delete {
+    background: #ff4757;
+    color: white;
+}
+
+.btn-edit {
+    background: #f1f2f6;
+    color: #2f3542;
+}
+
+.btn-book {
+    background: #ffd32a;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+.details-and-book-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+{
+    "1": {
+        "full_name": "Admin",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$10$sQz.jn\/RI68evmMSF96X6uf8OP.oPj3s4qMccHZE.OVAcYE5CSFyW",
+        "is_admin": true,
+        "id": "1"
+    },
+    "67816d98debec": {
+        "full_name": "example",
+        "email": "example@email.com",
+        "password": "$2y$12$Qo5TKtBqRJw5i1Eqc\/5E0OilQGu\/CL91a6PM2MA9skAVRVPhwJlX6",
+        "is_admin": false,
+        "id": "67816d98debec"
+    }
+}
